@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#head
+{
+    background: url(../img/home.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#head .dark-overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0,0,0,0.7);
+}
+#head .head-content
+{
+  padding-top: 150px;
+}
+#head .fa-check
+{
+    color:#0a9191;
+    background:#ffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+#about .fa-check{
+    color:#fff;
+    background:#333;
+    padding: 5px;
+    border-radius: 5px;
+}
+#share .fa-check
+{
+    color:#0a9191;
+    background:#ffff;
+    padding: 5px;
+    border-radius: 5px;
+}
